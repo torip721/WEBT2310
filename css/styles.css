@@ -102,3 +102,12 @@ img {
     font-size: 1.6rem;
   }
 }
+
+.index-image {
+  width: 80%;        
+  max-width: 600px;   
+  display: block;
+  margin: 2rem auto; 
+  border-radius: 8px; 
+}
+
