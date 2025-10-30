@@ -83,6 +83,7 @@ footer p {
 
 
 img {
+    display: block;
   max-width: 100%;
   border-radius: 8px;
 }
@@ -103,11 +104,4 @@ img {
   }
 }
 
-.index-image {
-  width: 80%;        
-  max-width: 600px;   
-  display: block;
-  margin: 2rem auto; 
-  border-radius: 8px; 
-}
 
