@@ -1,0 +1,104 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #fffaf7;
+  color: #333;
+  line-height: 1.7;
+}
+
+
+header, footer {
+  background-color: #f7ede8;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  color: #5b4231;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: #5b4231;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #c58b6f;
+}
+
+
+main {
+  max-width: 850px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h1, h2 {
+  font-family: "Playfair Display", serif;
+  color: #5b4231;
+  margin-bottom: 0.8rem;
+}
+
+p {
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #d6a68c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background-color: #c58b6f;
+}
+
+
+footer p {
+  color: #5b4231;
+  font-size: 0.9rem;
+}
+
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+
+@media (max-width: 700px) {
+  nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  main {
+    padding: 0 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+}
