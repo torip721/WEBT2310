@@ -26,3 +26,10 @@
   padding: 0.5rem 1.5rem;
   font-size: 0.9rem;
 }
+
+.p-5.mb-4.bg-body-tertiary.rounded-3 {
+  padding: 1rem !important;
+}
+.container-fluid.py-5 {
+  padding: 0.5rem !important;
+}
