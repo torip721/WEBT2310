@@ -1,35 +1,28 @@
-/* Override Bootstrap Jumbotron Styles */
+
 .p-5.mb-4.bg-body-tertiary.rounded-3 {
-  padding: 2rem !important; /* reduces padding from 5rem to 2rem */
-  margin-bottom: 2rem !important; /* less space below */
-  border-radius: 0.75rem; /* keeps soft corners */
-  background-color: #f9f8f6; /* optional - softer neutral background */
+  padding: 2rem !important; 
+  margin-bottom: 2rem !important;
+  border-radius: 0.75rem; 
+  background-color: #f9f8f6; 
   text-align: center;
 }
 
-/* Shrink the inner container padding */
 .container-fluid.py-5 {
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
 }
 
-/* Resize the image inside the jumbotron */
+
 .p-5.mb-4.bg-body-tertiary.rounded-3 img {
-  max-width: 250px; /* you can adjust this as needed */
+  max-width: 250px; 
   height: auto;
   border-radius: 0.5rem;
   margin-bottom: 1rem;
 }
 
-/* Adjust the button to fit smaller scale */
+
 .p-5.mb-4.bg-body-tertiary.rounded-3 .btn {
   padding: 0.5rem 1.5rem;
   font-size: 0.9rem;
 }
 
-.p-5.mb-4.bg-body-tertiary.rounded-3 {
-  padding: 1rem !important;
-}
-.container-fluid.py-5 {
-  padding: 0.5rem !important;
-}
