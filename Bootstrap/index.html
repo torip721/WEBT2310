@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Heart and Bloom Soap Co.</title>
 
-   
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,12 +12,41 @@
       crossorigin="anonymous"
     />
 
-    
+    <style>
+      /* Override and style the jumbotron */
+      #header_img {
+        background-image: url("images/soap2.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 250px; /* Adjust this to make it smaller or larger */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      #header_img .btn {
+        background-color: #ffc107;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        font-weight: 500;
+      }
+
+      main h1,
+      main h2 {
+        font-family: "Georgia", serif;
+      }
+
+      footer {
+        font-size: 0.9rem;
+        color: #555;
+      }
+    </style>
+
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
-    
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Heart & Bloom</a>
@@ -67,26 +95,18 @@
       </div>
     </nav>
 
+    <!-- Fixed jumbotron section -->
     <div class="container my-4">
       <div
         id="header_img"
         class="p-4 mb-4 bg-body-tertiary rounded-3 text-center shadow-sm"
       >
-        <div class="container-fluid py-4">
-          <img
-            class="d-block mx-auto mb-3"
-            src="images/soap2.jpg"
-            alt="Heart & Bloom Logo"
-            style="max-width: 250px; height: auto;"
-          />
-          <button class="btn btn-warning rounded-0 mx-auto d-block" type="button">
-            Learn More
-          </button>
-        </div>
+        <button class="btn btn-warning rounded-0" type="button">
+          Learn More
+        </button>
       </div>
     </div>
 
-  
     <main class="container">
       <header class="text-center mb-4">
         <h1>Heart & Bloom Soap Co.</h1>
@@ -142,12 +162,10 @@
       </section>
     </main>
 
-
     <footer class="text-center py-4 bg-light mt-5">
       &copy; 2025 Heart & Bloom Soap Co.
     </footer>
 
-   
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
@@ -156,5 +174,4 @@
   </body>
 </html>
 
-    
 
