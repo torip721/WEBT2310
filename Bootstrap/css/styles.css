@@ -4,11 +4,7 @@ body{
 }
 
 
-#header_img {
-    background-image: url(../images/soap2.jpg);
-    background-size: cover;
-    background-position: center;
-}
+
 
 #header{
     width: 30%;
