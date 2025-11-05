@@ -1,59 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-    <head>
-        <meta charset="UTF-8" />
-        <title>Title</title>
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-    
-    <body>
-        <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="location.html">Location</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        </nav>
-        
-        
-        <div class="container">
-        <div id="header_img" class="p-5 mb-4 bg-body-tertiary rounded-3"> <div class="container-fluid py-5"> <img id="header" class="d-block mx-auto" src="images/soap2.jpg" alt="Logo">  
-            <button class="btn btn-warning rounded-0 mx-auto d-block" type="button">Learn More</button> </div> </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | Heart & Bloom Soap Co.</title>
 
+   
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+   
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Heart & Bloom</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+            <li class="nav-item"><a class="nav-link" href="location.html">Location</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+          </ul>
         </div>
-     
-         <header>
-            <h1>Heart & Bloom Soap Co.</h1>
-            </header>
-        <main>
-    <h1>Contact Us</h1>
-    <p>Have a question or want to place a custom order? We'd love to hear from you!</p>
+      </div>
+    </nav>
 
-    <section class="contact-form">
-      <form action="#" method="post">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
-
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="5" required></textarea><br><br>
-
-        <button type="submit" class="button">Send Message</button>
-      </form>
-    </section>
-
-    <section class="contact-info">
-      <h2>Our Location</h2>
-      <p>123 Blossom Lane, Floral City, FL 12345</p>
-      <p>Email: hello@heartandbloom.com</p>
-      <p>Phone: (123) 456-7890</p>
-    </section>
-  </main>
-    </body>
     
+    <div class="container my-4">
+      <div
+        id="header_img"
+        class="p-4 mb-4 bg-body-tertiary rounded-3 text-center shadow-sm"
+      >
+        <div class="container-fluid py-4">
+          <img
+            class="d-block mx-auto mb-3"
+            src="images/soap2.jpg"
+            alt="Heart & Bloom Logo"
+            style="max-width: 250px; height: auto;"
+          />
+          <button class="btn btn-warning rounded-0 mx-auto d-block" type="button">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+
+   
+    <main class="container">
+      <header class="text-center mb-4">
+        <h1>Contact Us</h1>
+        <p class="lead">We’d love to hear from you!</p>
+      </header>
+
+      <section class="contact-form mb-5">
+        <form action="#" method="post" class="mx-auto" style="max-width: 600px;">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" id="name" name="name" class="form-control" required />
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" id="email" name="email" class="form-control" required />
+          </div>
+
+          <div class="mb-3">
+            <label for="message" class="form-label">Message:</label>
+            <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-warning rounded-0 w-100">
+            Send Message
+          </button>
+        </form>
+      </section>
+
+      <section class="contact-info text-center">
+        <h2>Our Location</h2>
+        <p>123 Blossom Lane, Floral City, FL 12345</p>
+        <p>Email: <a href="mailto:hello@heartandbloom.com">hello@heartandbloom.com</a></p>
+        <p>Phone: (123) 456-7890</p>
+      </section>
+    </main>
+
+    
+    <footer class="text-center py-4 bg-light mt-5">
+      &copy; 2025 Heart & Bloom Soap Co.
+    </footer>
+
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
 
