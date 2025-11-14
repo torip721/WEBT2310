@@ -85,10 +85,7 @@ nav a {
   gap: 20px;
 }
 
-.grid-2 {
-  display: grid;
-  gap: 20px;
-}
+
 
 /* FOOTER */
 footer {
@@ -100,12 +97,6 @@ footer {
 
 /* RESPONSIVE BREAKPOINTS */
 
-/* Tablets */
-@media (min-width: 600px) {
-  .grid-2 {
-    grid-template-columns: 1fr 1fr;
-  }
-}
 
 /* Desktop */
 @media (min-width: 900px) {
@@ -119,5 +110,26 @@ footer {
 
   nav .menu-toggle {
     display: none;
+  }
+}
+
+/* SIDE-BY-SIDE TEXT + IMAGE BLOCKS (ABOUT PAGE) */
+.about-section {
+  display: grid;
+  gap: 30px;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+/* Mobile: stacked */
+.about-section img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Tablet + Desktop: side-by-side */
+@media (min-width: 700px) {
+  .about-section {
+    grid-template-columns: 1fr 1fr;
   }
 }
