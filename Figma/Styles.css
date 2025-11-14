@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,6 @@ body {
   line-height: 1.6;
 }
 
-/* NAVIGATION */
 nav {
   background: #e9d8df;
   padding: 15px 20px;
@@ -38,14 +37,13 @@ nav a {
   font-weight: 500;
 }
 
-/* MOBILE MENU */
 .menu-toggle {
   display: none;
   font-size: 1.8rem;
   cursor: pointer;
 }
 
-/* HERO */
+
 .hero {
   padding: 60px 20px;
   text-align: center;
@@ -79,7 +77,7 @@ nav a {
   font-size: 2rem;
 }
 
-/* GRID IMAGE AREAS */
+
 .grid-3 {
   display: grid;
   gap: 20px;
@@ -87,7 +85,6 @@ nav a {
 
 
 
-/* FOOTER */
 footer {
   text-align: center;
   padding: 25px;
@@ -95,10 +92,9 @@ footer {
   margin-top: 40px;
 }
 
-/* RESPONSIVE BREAKPOINTS */
 
 
-/* Desktop */
+
 @media (min-width: 900px) {
   .grid-3 {
     grid-template-columns: repeat(3, 1fr);
@@ -113,7 +109,7 @@ footer {
   }
 }
 
-/* SIDE-BY-SIDE TEXT + IMAGE BLOCKS (ABOUT PAGE) */
+
 .about-section {
   display: grid;
   gap: 30px;
@@ -121,13 +117,13 @@ footer {
   padding: 50px 20px;
 }
 
-/* Mobile: stacked */
+
 .about-section img {
   width: 100%;
   border-radius: 10px;
 }
 
-/* Tablet + Desktop: side-by-side */
+
 @media (min-width: 700px) {
   .about-section {
     grid-template-columns: 1fr 1fr;
